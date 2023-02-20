@@ -204,4 +204,5 @@ for (let index = 0; index < barCount; index++) {
   wrapper[3].innerHTML += `<i style="--i: ${index};" class="${className}"></i>`;
 }
 
+
 wrapper[3].innerHTML += `<p class="selected percent-text text3">90%</p>`
