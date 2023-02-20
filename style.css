@@ -59,7 +59,6 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
-    transform: rotate(calc(0deg + calc(calc(180deg / var(--tlt-br-cnt)) * var(--i))));
 }
 
 .progress i::after {
@@ -78,24 +77,7 @@ html{
     animation-delay: calc(var(--i) * 15ms);
 }
 
-.progress .selected1::after {
-    background: darkslateblue;
-    box-shadow: darkslateblue;
-}
 
-.progress .selected2::after {
-    background: darkslateblue;
-    box-shadow: darkslateblue;
-}
-
-.progress .selected3::after {
-    background: darkslateblue;
-    box-shadow: darkslateblue;
-}
-.progress .selected4::after {
-    background: darkslateblue;
-    box-shadow: darkslateblue;
-}
 .percent-text {
     padding-bottom: 40px;
     font-size: 3rem;
